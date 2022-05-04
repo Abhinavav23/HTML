@@ -1,0 +1,143 @@
+/* section p{
+    color: blue;
+} */
+
+/* div p{
+    color: green;
+} */
+
+/* article > p {
+    color: red;
+} */
+
+/* section{
+    border: 1px solid red;
+} */
+
+/* .redcolor{
+    color: red;
+}
+
+#minespecific{
+    color:aquamarine;
+    font-weight: bold;
+}
+
+a:hover{
+    color: red;
+}
+
+div:hover{
+    font-weight: bold;
+}
+
+p:first-child{
+    color: red;
+}
+
+p:last-child{
+    color: green;
+}
+
+div:first-child{
+    color: yellow
+}
+
+input:disabled{
+    border: 1px solid green;
+}
+
+input:required{
+    border: 1px solid red;
+}
+
+p::after{
+    content: " firstname";
+}
+
+div::before{
+    content: "LastName - ";
+}
+
+div::selection{
+    background-color: black;
+    color: green;
+} */
+
+/* section + div{
+    color: red;
+}
+
+section + article{
+    color: yellow;
+}
+
+main+div{
+    color: green
+} */
+
+input[type="text"]{
+    border: 1px solid #ddd;
+}
+
+/* color values */
+/* using color names */
+/* rgb(red(0-256), green(0-256), blue(0-256), opacity(0-1) */
+/* Hex code - starts with # max have 6 values */
+/* hsl value -( hue, saturation, light) */
+
+
+/* Margin
+top bottom right left */
+
+
+button{
+    background-color: hsl(356, 13%, 58%);
+    color: #fff;
+    border: 1px solid green;
+    padding: 10px;
+
+    /* margin: 10px; */
+
+    /* margin-left: 10px;
+    margin-right: 20px;
+    margin-top: 30px;
+    margin-bottom: 40px; */
+
+    margin: 30px 20px 40px 10px;
+}
+
+/* Box-Model in CSS
+
+inner most
+1. content/value
+2. padding
+3. border
+4. margin */
+
+
+.bg{
+    background-color: #333;
+    width: 300px;
+   
+}
+#me{
+    color: black;
+    
+}
+
+.para1{
+    border: 1px solid red;
+    width:250px;
+    overflow:hidden;
+    white-space: nowrap; 
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    word-break: break-all;
+    /* writing-mode: vertical-lr; */
+}
+   
+
+
+
+
