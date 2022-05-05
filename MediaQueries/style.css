@@ -1,0 +1,27 @@
+.media{
+    background-color: #ddd;
+    height: 500px;
+}
+
+@media only screen and (min-width: 780px){
+    .media{
+        background-color: green;
+        color:#fff;
+    }
+}
+
+@media only screen and (min-width: 500px){
+    .media{
+        background-color: red;
+        color:aqua;
+    }
+}
+
+̀
+/* 0 to 500 px ---> color: red;
+
+500px to 780 px ----> color: green;
+
+780 to above ---> color: gray */
+
+

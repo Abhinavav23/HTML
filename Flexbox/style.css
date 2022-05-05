@@ -1,0 +1,56 @@
+/* section{
+    border: 1px solid #333;
+    margin: 10px;
+    padding: 10px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    /* align-items: flex-end;
+}
+
+.one{
+    flex: 1;
+    order: 1
+}
+
+.two{
+    flex: 2;
+    order: 2;
+}
+
+.three{
+    flex: 2;
+    order: 4;
+}
+
+.four{
+    flex: 1;
+    order: 3;
+} */
+
+
+.container{
+    display: flex;
+    /* background-color: aqua; */
+    /* flex-wrap: nowrap; */
+    justify-content: space-between;
+}
+
+section{
+    background-color: aqua;
+    flex-basis: 100px;
+    height: 100px;
+    margin: 10px;
+    border: 1px solid black;
+    padding-top: auto;
+    text-align:center;
+}
+
+/* flex is a shorthand for flex-grow, flex-shrink & flex-basis */
+
+.item{
+    flex-shrink: 0;
+    flex: 1 0 500px;
+}
