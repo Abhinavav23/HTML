@@ -1,0 +1,32 @@
+.container{
+    display: grid;
+    /* grid-template-columns: 33.33% 33.33% 33.33%; */
+    /* grid-template-columns: 50% 25% 25%; */
+    /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+    /* grid-template-columns: 1fr 2fr 1fr 2fr; */
+
+    grid-template-columns: repeat(2, 1fr);
+
+    /* grid-column-gap: 10px;
+    grid-row-gap: 10px; */
+    grid-gap: 10px;
+    grid-auto-rows: minmax(50px, auto);
+}
+
+.container > section{
+    /* width: 100px; */
+    /* height: 100px; */
+}
+
+.container > section:nth-child(even){
+    background-color: #ddd;
+}
+
+.container > section:nth-child(odd){
+    background-color: #333;
+    color: #fff
+}
+
+.section5{
+    
+}

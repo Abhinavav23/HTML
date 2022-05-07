@@ -1,0 +1,35 @@
+img {
+    width: 50%;
+    /* height: auto; */
+  }
+
+  /* 0px to 500px */
+  @media screen and (max-width: 500px) {
+    main {
+      background-image: url(./images/nature2.jpg);
+      background-size: cover;
+      height: 500px;
+      /* width: 50%; */
+      border-bottom: 1rem solid #ddd;
+    }
+  }
+
+  /* 501px to 768px */
+
+  @media screen and (min-width: 501px) and (max-width: 768px) {
+    main {
+      background-image: url(./images/nature1.jpg);
+      background-size: cover;
+      min-height: 400px;
+      border-bottom: 2rem solid rgb(124, 149, 198);
+    }
+  }
+
+  @media screen and (min-width: 769px) {
+    main {
+      background-image: url(./images/nature3.jpg);
+      background-size: cover;
+      min-height: 500px;
+      border-bottom: 2rem solid #333;
+    }
+  }

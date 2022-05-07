@@ -1,0 +1,231 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway|Roboto|Ubuntu&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", san-serif;
+  line-height: 1.4;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  margin: 0.75rem 0;
+}
+
+/* utility classes */
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 0 2rem;
+  overflow: hidden;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-primary {
+  color: #93cb52;
+}
+
+.bg-light {
+  background: #fff;
+}
+
+.bg-dark {
+  background: #333;
+  color: #fff;
+}
+
+.bg-primary {
+  background: #93cb52;
+  color: #fff;
+}
+
+.py-1 {
+  padding: 1.5rem 0;
+}
+
+.py-2 {
+  padding: 2rem 0;
+}
+
+.py-3 {
+  padding: 3rem 0;
+}
+
+.p-1 {
+  padding: 1.5rem;
+}
+
+.p-2 {
+  padding: 2rem;
+}
+
+.p-3 {
+  padding: 3rem;
+}
+
+.l-heading {
+  font-size: 4rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.1;
+}
+
+.list {
+  padding: 0.5rem;
+  list-style: none;
+}
+
+.list li {
+  padding: 0.5rem;
+  border-bottom: #444 dotted 1px;
+}
+
+.m-heading {
+  font-size: 2rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.1;
+}
+
+.lead {
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+}
+
+.btn {
+  display: inline-block;
+  color: #fff;
+  background: #93cb52;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem 2rem;
+}
+
+.btn:hover {
+  background: #7ab436;
+}
+
+.btn-dark {
+  background: #333;
+  color: #fff;
+}
+
+#navbar {
+  position: sticky;
+  top: 0;
+  background: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  z-index: 1;
+}
+
+#navbar ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+#navbar ul li a {
+  color: #fff;
+  padding: 0.75rem;
+  margin: 0 0.25rem;
+}
+
+#navbar ul li a:hover {
+  background: #93cb52;
+  border-radius: 5px;
+}
+
+#showcase {
+  background: #333 url(../images/showcase.jpg) no-repeat center center/cover;
+  height: 100vh;
+  color: #fff;
+}
+
+#showcase .showcase-content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 0 2rem;
+  position: absolute;
+  top: 65px;
+  background: rgb(0, 0, 0, 0.4);
+}
+
+#What .items {
+  display: flex;
+  padding: 1rem;
+}
+
+#What .items .item {
+  flex: 1;
+  text-align: center;
+  padding: 1.2rem;
+}
+
+#What .items .item i {
+  background: #93cb52;
+  padding: 1rem;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+/*Who We are */
+
+#Who {
+  display: flex;
+}
+
+#Who div {
+  flex: 1;
+}
+
+#Who .who-img {
+  background: url(../images/people.jpg) no-repeat center center/cover;
+}
+
+#clients .items {
+  display: flex;
+}
+
+#clients .items img {
+  display: block;
+  margin: auto;
+  width: 60%;
+}
+
+#Contact {
+  display: flex;
+}
+
+#Contact .Contact-form,
+#Contact .map {
+  flex: 1;
+}
+
+#Contact .Contact-form .form-group {
+  margin: 0.75rem;
+}
+
+#Contact .Contact-form .form-group label {
+  display: block;
+}
+
+#Contact .Contact-form input,
+#Contact .Contact-form textarea {
+  padding: 0.5rem;
+  width: 100%;
+}
